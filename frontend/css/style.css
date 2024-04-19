@@ -69,3 +69,84 @@ nav ul li a {
 .login-options a:hover {
     background-color: #ddd;
 }
+.contact-social {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+.contact-details, .social-media {
+    width: 50%;
+    float: left;
+}
+.contact-details h3, .social-media h3 {
+    margin-top: 0;
+}
+.contact-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+.social-media ul li {
+    margin-bottom: 10px;
+}
+.social-media ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.social-media ul li a:hover {
+    color: #007bff;
+}
+.about {
+    padding: 50px 0;
+    text-align: left;
+}
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.about h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 50px;
+}
+.about ul li {
+    margin-bottom: 5px;
+    list-style: disc;
+}
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+.about ul li {
+    margin-bottom: 5px;
+}
+
+.about ul li:before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.about p:first-of-type {
+    font-style: italic;
+}
+.about p:nth-of-type(3) {
+    font-weight: bold
+}
