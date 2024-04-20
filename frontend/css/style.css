@@ -1,6 +1,144 @@
-#heading {
-    color: white;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/index.jpg');
+    background-size: cover;
+    background-position: center;
 }
-#headspace {
-    background-color: brown;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.login-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.login-btn:hover {
+    background-color: #ddd;
+}
+.login-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+.login-options li {
+    padding: 5px 0;
+}
+.login-options a {
+    display: block;
+    padding: 2px 2px;
+    color: #333;
+    text-decoration: none;
+}
+.login-options a:hover {
+    background-color: #ddd;
+}
+.contact-social {
+    background-color: #c9c5c5;
+    padding: 40px 0;
+}
+.contact-details, .social-media {
+    width: 50%;
+    float: left;
+}
+.contact-details h3, .social-media h3 {
+    margin-top: 0;
+}
+.contact-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+.social-media ul li {
+    margin-bottom: 10px;
+}
+.social-media ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.social-media ul li a:hover {
+    color: #007bff;
+}
+.about {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+    background-image: url('../images/index.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.about-item {
+    margin-bottom: 40px;
+}
+.about-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.about-item p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.about-item ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.about-item ul li {
+    margin-bottom: 5px;
+}
+.about-item ul li:before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
