@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/loginStyle.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Create an Account</h2>
+        <form action="signUp.php" method="POST">
+            <div class="form-group">
+                <label for="account-type">Account Type:</label>
+                <select id="account-type" name="account-type" required>
+                    <option value="" selected disabled>Select Account Type</option>
+                    <option value="student">Student</option>
+                    <option value="staff">Staff</option>
+                </select>
+            </div>
+            <div class="form-group" id="student-info">
+                <label for="student-id">Student ID:</label>
+                <input type="text" id="student-id" name="student-id" placeholder="Enter Student ID" />
+            </div>
+            <div class="form-group" id="staff-info">
+                <label for="staff-id">Staff ID:</label>
+                <input type="text" id="staff-id" name="staff-id" placeholder="Enter Staff ID" />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="js/signUp.js"></script>
+</body>
+</html>

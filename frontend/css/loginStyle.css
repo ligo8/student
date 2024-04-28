@@ -22,8 +22,14 @@ label {
     margin-bottom: 5px;
     color: #333;
 }
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"]{
     width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select {
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -51,4 +57,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+#error-message {
+    color: red;
+    font-size: 14px;
 }
